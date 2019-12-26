@@ -7,5 +7,16 @@
   "exclude": [
     "test.ts",
     "**/*.spec.ts"
+  ],
+  "include": [
+    "src/**/*"
+  ],
+  "files": [
+    "app/app.module.ts",
+    "../node_modules/jqwidgets-scripts/jqwidgets-ts/angular_jqxbargauge.ts",
+    "main.ts",
+    "polyfills.ts",
+ 
+    
   ]
 }

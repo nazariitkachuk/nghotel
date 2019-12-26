@@ -33,6 +33,10 @@ import { HeaderComponent } from './navigation/header/header.component';
 import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
 import { NavtabsComponent } from './navigation/navtabs/navtabs.component';
 import { FooterComponent } from './ui/footer/footer.component';
+import { MatDatepickerModule,MatNativeDateModule } from '@angular/material';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms'
+
+
 
 @NgModule({
   declarations: [
@@ -59,7 +63,10 @@ import { FooterComponent } from './ui/footer/footer.component';
     HeaderComponent,
     SidenavListComponent,
     NavtabsComponent,
-    FooterComponent
+    FooterComponent,
+   
+  
+    
   ],
 
   imports: [
@@ -68,6 +75,11 @@ import { FooterComponent } from './ui/footer/footer.component';
     BrowserAnimationsModule,
     MaterialModule,
     FlexLayoutModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    FormsModule, 
+    ReactiveFormsModule,
+    
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production
     })
