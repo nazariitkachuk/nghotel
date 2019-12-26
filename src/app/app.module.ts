@@ -33,7 +33,7 @@ import { HeaderComponent } from './navigation/header/header.component';
 import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
 import { NavtabsComponent } from './navigation/navtabs/navtabs.component';
 import { FooterComponent } from './ui/footer/footer.component';
-import { MatDatepickerModule,MatNativeDateModule } from '@angular/material';
+
 import {FormsModule, ReactiveFormsModule} from '@angular/forms'
 
 
@@ -75,8 +75,7 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms'
     BrowserAnimationsModule,
     MaterialModule,
     FlexLayoutModule,
-    MatDatepickerModule,
-    MatNativeDateModule,
+ 
     FormsModule, 
     ReactiveFormsModule,
     
